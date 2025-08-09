@@ -1,0 +1,38 @@
+{
+    "segments": [
+        {
+            "file_name": "AI_RAG_Workshop.pptx",
+            "pages": [
+                1,
+                2,
+                3
+            ],
+            "text": "Outline\n1. RAG basics\n2. Retriever options\n3. Graph RAG\n4. Evaluation\nGraph RAG pipeline\nWe combine event graphs with retrieval. Components are:\n- Document parsing\n- Event extraction\n- Graph construction\n- Indexing and query planning:\n- 1) Retrieve nodes/edges relevant to the query\n- 2) Expand neighborhoods to capture context\n- 3) Rank subgraphs and select top-K,\n- 4) Compose context for the generator"
+        },
+        {
+            "file_name": "AI_RAG_Workshop.pptx",
+            "pages": [
+                4
+            ],
+            "text": "References\n- Lewis et al. (RAG)\n- Raft et al. (Domain-specific RAG fine-tuning)\n- Recent benchmarks and datasets"
+        },
+        {
+            "file_name": "Semiconductor_Etch_Intro.pptx",
+            "pages": [
+                1,
+                2,
+                3
+            ],
+            "text": "Reactive Ion Etching (RIE) Overview\n- Purpose: anisotropic etching for microfabrication\n- Typical materials: Si, SiO2, Si3N4\n- We compare selectivity, profile control, and damage\nProcess parameters (RIE):\n- Gas mixture: SF6/O2 (selectivity to Si vs SiO2 depends on O2%)\n- Power: RF bias controls ion energy,\n- Pressure: 5–30 mTorr; affects mean free path\n- Temperature: 10–30°C (chuck cooling)\n- Notes: polymer formation and sidewall passivation\n• Power tuning impacts ion-assisted chemical etching; higher bias increases anisotropy\n• Lower pressure increases directionality; too low reduces radical density\n• Etch profile control: sidewall passivation via O radicals—"
+        },
+        {
+            "file_name": "Semiconductor_Etch_Intro.pptx",
+            "pages": [
+                4,
+                5,
+                6
+            ],
+            "text": "Summary\n- RIE combines chemical etching and physical sputtering\n- Gas chemistry determines selectivity\n- RF power and pressure balance anisotropy vs damage\nCase study: SF6/O2 ratio vs Si/SiO2 selectivity\nFigure 2. Etch rate (nm/min) vs O2% at 10 mTorr, 200 W. As O2 increases, Si etch rate first rises then falls due to passivation. Observed knee near 25% O2:\nFigure 2 (cont.) Etch rate vs O2% shows optimum selectivity near 20–25% O2 with stable profiles. Beyond 35%, excessive passivation reduces etch and causes micro-masking."
+        }
+    ]
+}
